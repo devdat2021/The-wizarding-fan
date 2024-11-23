@@ -1,0 +1,173 @@
+/* General styles */
+img {
+    border-radius: 10px;
+}
+.thumbnail:hover {
+    position: relative;
+    top: -5px;
+    left: -10px;
+    width: 300px;
+    height: auto;
+    display: block;
+    z-index: 999;
+}
+body {
+    background-image: url('https://github.com/user-attachments/assets/505756a8-9e16-498a-8f67-235b0c958402');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+h1 {
+    font-family: 'Comic sans MS';
+    font-style: bold;
+    font-size: 44px;
+    text-decoration: none;
+    line-height: 116px;
+}
+a {
+    color: rgb(0, 136, 0);
+    text-decoration: none;
+}
+a:hover, a:active, a:focus {
+    color: rgb(223, 21, 21);
+}
+.topnav {
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #291e17;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: cursive;
+}
+.topnav a:hover {
+    background-color: #ddd;
+}
+.topnav a.active {
+    background-color: rgb(253, 131, 16);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.class {
+    background: rgb(253, 131, 16);
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-top: 5px;
+    padding: 5px;
+    margin-right: 500px;
+}
+button:hover {
+    background-color: rgb(255, 230, 198);
+}
+.topnav input[type=text] {
+    float: right;
+    padding: 10px;
+    border: none;
+    margin-top: 2px;
+    margin-right: 16px;
+    font-size: 17px;
+    background-color: #ddd;
+    color: rgb(253, 131, 16);
+}
+.topnav input[type=text] {
+    border: 1px solid rgb(253, 131, 16);
+}
+#searchbar {
+    margin-left: 15%;
+    padding: 15px;
+    border-radius: 15px;
+}
+input[type=text] {
+    width: 40%;
+    -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.15s ease-in-out;
+    border-radius: 25px;
+}
+#list {
+    font-size: 1.5em;
+    margin-left: 90px;
+}
+.hi {
+    display: list-item;
+}
+#cont {
+    padding-left: 10px;
+    margin-right: 890px;
+    margin-top: 50px;
+}
+th, td {
+    border-radius: 5px;
+}
+td {
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+th {
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    background: rgb(253, 131, 16);
+    color: #ffffff;
+}
+iframe {
+    border-radius: 10px;
+}
+p {
+    margin-right: 80px;
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    font-size: 30px;
+}
+p::selection {
+    background-color: #ED6030;
+}
+table {
+    font-family: 'Comic sans MS';
+}
+a:visited {
+    color: crimson;
+}
+h6 {
+    font-family: cursive;
+}
+h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Rockwell Nova';
+    font-style: bold;
+    background: rgb(253, 131, 16);
+    line-height: 50px;
+    border-radius: 10px;
+    margin-right: 50px;
+    padding-left: 20px;
+}
+#wikipedia {
+    float: right;
+    width: 30%;
+    margin-left: 10px;
+    font-family: cursive;
+    margin-bottom: 30px;
+}
+.click:hover {
+    color: rgb(171, 223, 30);
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#ED6030, #ec7177);
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(#ED6030, #ec7177);
+    border-radius: 20px;
+}
